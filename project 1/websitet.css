@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:darkcyan;
+}
+
+.total{
+    width: 100%;
+}
+.displayb{
+    width: 50%;
+    border:  2px solid white;
+    margin-top: 1%;
+
+}
+.displayi{
+    width: 65%;
+    height: 600px;
+    border: 1px solid white;
+    margin-top: 2%;
+    display: inline-block;
+    
+    background-image: url(pexels-sies-studio-11674381.jpg);
+    background-size: cover
+    
+}
+.displayh{
+    width:425px;
+    height:600px;
+    background-color: rgba(153, 171, 171, 0.699);
+    display: inline-block;
+    position: relative;
+    right: 0.3%;
+   
+}
+.designborder{
+    width: 550px;
+    height: 300px;
+    border: 6px solid white;
+    position: absolute;
+    top: 45%;
+    left: 44%;
+}
+.categories{
+    background-color: whitesmoke;
+    width: 1260px;
+    height: 870px;
+    display: inline-block;
+    margin-top: -0.4%;
+}
+.product1{
+    width: 230px;
+    height: 300px;
+    background-color: cadetblue;
+}
+.product2{
+    width: 230px;
+    height: 300px;
+    background-color: cadetblue;
+}
+.product3{
+    width: 230px;
+    height: 300px;
+    background-color: cadetblue;
+}
+.product4{
+    width: 230px;
+    height: 300px;
+    background-color: cadetblue;
+}
+.offer{
+    width: 1260px;
+    height: 500px;
+}
+.offerd{
+    width: 615px;
+    height: 470px;
+    background-color: rgb(3, 3, 3);
+    display: inline-block;
+    position: relative;
+    right: 0.3%;
+    bottom: 13%;
+}
+.designoff{
+    width: 110px;
+    height: 180px;
+    background-color: rgb(89, 86, 86);
+    border-radius: 250px;
+    position: absolute;
+    right: 18%;
+    top: 17%;
+}
+.most{
+     width: 1260px;
+     height: 690px;
+}
+.designoff2{
+    width: 150px;
+    height: 180px;
+    background-color: rgb(130, 223, 223);
+    border-radius: 250px;
+    position: absolute;
+    left: 55%;
+}
+.delivery{
+    width: auto;
+    height: 500px;
+    border: 2px solid white;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.feedback{
+    width: auto;
+    height: 450px;
+    background-color:rgb(76, 136, 138);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+#message{
+    position: relative;
+    top: 38%;
+    color:rgb(44, 41, 41);
+    font-size: 23px;
+    font-family:'Courier New', Courier, monospace;
+    
+
+}
+.fa-regular{
+    color:white;
+    position: relative;
+    left: 47%;
+    top: 20%;
+    font-size:30px;
+}
+#messagename{
+    position: relative;
+    left: 43.5%;
+    top: 30%;
+    font-size: 17px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+.footer{
+    width: auto;
+    height: 360px;
+    background-color: black;
+    
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#box1{
+    width: 330px;
+    height: 358px;
+   
+}
+.wings1{
+    color:rgb(94, 92, 92);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 10px;
+    font-size: 40px;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.wings2{
+    color: rgb(58, 57, 57);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    margin-left: 13%;
+    margin-top: 3%;
+}
+.wings3{
+    color: rgb(78, 77, 77);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+    margin-left: 2%;
+    margin-top: 7%;
+    word-spacing: 7px;
+}
+.fa-brands{
+    color: rgb(78, 77, 77) ;
+    font-size: 20px;
+    margin-top: 15%;
+    margin-left: 15%;
+
+
+}
+
+#box2{
+    width: 225px;
+    height: 358px;
+    background-color:black;
+   
+}
+.information{
+    color:white;
+    font-size: 23px;
+    font-family:monospace;
+    margin-left: 15%;
+    margin-top: 23%;
+}
+.list{
+    color: aliceblue;
+    list-style: none;
+    line-height: 30px;
+    margin-left: 35px;
+    margin-top: 25px;
+    color: rgb(78, 77, 77) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#box3{
+    width: 220px;
+    height: 358px;
+}
+.service{
+    color:white;
+    font-size: 23px;
+    font-family:monospace;
+    margin-left: 23%;
+    margin-top: 23%;
+}
+.list2{
+    color: rgb(78, 77, 77) ;
+    line-height: 30px;
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#box4{
+    width: 220px;
+    height: 358px;
+}
+.categ{
+    color:white;
+    font-size: 23px;
+    font-family:monospace;
+    margin-left: 20%;
+    margin-top: 23%;
+}
+.list3{
+    color: rgb(78, 77, 77) ;
+    line-height: 30px;
+    list-style: none;
+    margin-left: 45px;
+    margin-top: 20px; 
+}
+#box5{
+    width: 265px;
+    height: 358px;
+}
+.contactlast{
+    color:white;
+    font-size: 23px;
+    font-family:monospace;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+.address{
+    font-size: 15px;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(229, 230, 231, 0.79);
+}
+.paraaddress{
+    color: rgb(78, 77, 77) ;
+    word-spacing: 10px;
+    line-height: 25px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.mobile{
+    font-size: 15px;
+    margin-left: 10%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(229, 230, 231, 0.79);
+}
+.no{
+    color: rgb(78, 77, 77);
+    font-size: 15px;
+    font-family: monospace;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.email{
+    color: rgb(78, 77, 77);
+    font-size: 15px;
+    font-family: monospace;
+    margin-left: 10%;
+    margin-top: -0.5px; 
+}
